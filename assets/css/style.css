@@ -11,13 +11,15 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 header a {
     color: #fce138;
@@ -27,7 +29,6 @@ header a {
     color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 header nav ul li {
@@ -62,7 +63,7 @@ section {
 }
 /* Hero Style Start */
 .hero {
-    background-image: url("../assets/images/hero-bg.jpg");
+    background-image: url("https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg");
     height: 600px;
     background-size: cover;
     background-position: center;
